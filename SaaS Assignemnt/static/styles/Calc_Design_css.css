@@ -1,0 +1,134 @@
+body {
+  background-color: #888 !important;
+}
+
+table {
+  margin: auto;
+  background-color: #222 !important;
+  width: 300px;
+  max-width: 300px;
+  height: 340px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+form {
+  margin-top: 10%;
+}
+input {
+  outline: 0;
+  position: relative;
+  left: 7px;
+  top: 3px;
+  border: 0;
+  color: #495069;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 58px;
+  height: 46px;
+  float: left;
+  font-size: 20px;
+  box-shadow: 0 4px rgb(0 0 0 / 20%);
+  margin-bottom: 15px;
+}
+
+tr:last-child input{
+  margin-bottom: 5px;
+}
+input:hover {
+  border: 0 solid #000;
+  color: #495069;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 58px;
+  height: 46px;
+  float: left;
+  font-size: 20px;
+  box-shadow: 0 4px #b0d2cf;
+}
+
+input:active {
+  top: 4px;
+  border: 0 solid #000;
+  color: #495069;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 58px;
+  height: 46px;
+  float: left;
+  font-size: 20px;
+  box-shadow: none;
+}
+
+#display {
+  width: 280px;
+  max-width: 280px;
+  font-size: 26px;
+  text-align: right;
+  background-color: #bcbd95;
+  float: left;
+}
+
+#display:hover {
+  width: 280px;
+  font-size: 26px;
+  text-align: right;
+  background-color: #bcbd95;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+#display:active {
+  top: 5px;
+  width: 270px;
+  font-size: 26px;
+  text-align: right;
+  background-color: #bcbd95;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.operator {
+  background-color: #cee9ea;
+  position: relative;
+}
+
+.operator:hover {
+  background-color: #cee9ea;
+  box-shadow: 0 4px #b0d2cf;
+}
+
+.operator:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+#clear {
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #ff9fa8;
+}
+
+#clear:hover {
+  float: left;
+  display: block;
+  background-color: #F297A0;
+  box-shadow: 0 4px #CC7F86;
+}
+
+#clear:active {
+  float: left;
+  top: 4px;
+  display: block;
+  background-color: #F297A0;
+  box-shadow: none;
+}
+
+#logs{
+  background: white;
+  height: auto;
+  text-align: center;
+}
+p:last-of-type{
+  color: red;
+  font-weight: 600;
+}
